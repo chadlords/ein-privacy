@@ -9,10 +9,6 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Space+Grotesk:wght@500;600&amp;display=swap');
         
-        :root {
-            --primary: #0f766e;
-        }
-        
         body {
             font-family: 'Inter', system_ui, sans-serif;
         }
@@ -24,15 +20,6 @@
 
         .policy-section {
             scroll-margin-top: 80px;
-        }
-
-        .prose {
-            max-width: 65ch;
-        }
-
-        .nav-active {
-            color: #0f766e;
-            font-weight: 600;
         }
     </style>
 </head>
@@ -50,10 +37,7 @@
                 </div>
             </div>
             <div class="flex items-center gap-x-2 text-sm">
-                <a href="#contact" 
-                   class="px-4 py-2 text-zinc-600 hover:text-zinc-900 transition-colors font-medium">
-                    Contact
-                </a>
+                <a href="#contact" class="px-4 py-2 text-zinc-600 hover:text-zinc-900 transition-colors font-medium">Contact</a>
                 <a href="https://github.com/yourusername/your-repo" target="_blank"
                    class="px-4 py-2 bg-zinc-900 text-white text-sm font-medium rounded-3xl hover:bg-black transition-colors flex items-center gap-x-2">
                     <i class="fa-brands fa-github"></i>
@@ -81,113 +65,129 @@
         <div class="mb-8 flex flex-wrap gap-2 text-sm">
             <a href="#introduction" class="px-3 py-1.5 bg-white border border-zinc-200 hover:border-zinc-300 rounded-3xl text-zinc-600 hover:text-zinc-900 transition-colors">Introduction</a>
             <a href="#collection" class="px-3 py-1.5 bg-white border border-zinc-200 hover:border-zinc-300 rounded-3xl text-zinc-600 hover:text-zinc-900 transition-colors">Information We Collect</a>
-            <a href="#use" class="px-3 py-1.5 bg-white border border-zinc-200 hover:border-zinc-300 rounded-3xl text-zinc-600 hover:text-zinc-900 transition-colors">How We Use It</a>
+            <a href="#handling" class="px-3 py-1.5 bg-white border border-zinc-200 hover:border-zinc-300 rounded-3xl text-zinc-600 hover:text-zinc-900 transition-colors">How Your Data is Handled</a>
             <a href="#children" class="px-3 py-1.5 bg-white border border-zinc-200 hover:border-zinc-300 rounded-3xl text-zinc-600 hover:text-zinc-900 transition-colors">Children's Privacy</a>
-            <a href="#sharing" class="px-3 py-1.5 bg-white border border-zinc-200 hover:border-zinc-300 rounded-3xl text-zinc-600 hover:text-zinc-900 transition-colors">Sharing &amp; Disclosure</a>
+            <a href="#sharing" class="px-3 py-1.5 bg-white border border-zinc-200 hover:border-zinc-300 rounded-3xl text-zinc-600 hover:text-zinc-900 transition-colors">Sharing by You</a>
             <a href="#security" class="px-3 py-1.5 bg-white border border-zinc-200 hover:border-zinc-300 rounded-3xl text-zinc-600 hover:text-zinc-900 transition-colors">Security &amp; Retention</a>
             <a href="#rights" class="px-3 py-1.5 bg-white border border-zinc-200 hover:border-zinc-300 rounded-3xl text-zinc-600 hover:text-zinc-900 transition-colors">Your Rights</a>
         </div>
 
-        <!-- Main Content -->
         <div class="prose prose-zinc max-w-none">
 
             <!-- Introduction -->
             <section id="introduction" class="policy-section mb-12">
                 <h2 class="text-2xl font-semibold tracking-tight mb-4">1. Introduction</h2>
                 <p class="text-zinc-600 leading-relaxed">
-                    Early Intervention Notes ("we", "our", or "us") respects your privacy and is committed to protecting the personal information of the professionals who use our app and the families they serve. 
-                    This Privacy Policy explains how we collect, use, disclose, and safeguard information when you use the Early Intervention Notes iOS application.
+                    Early Intervention Notes (“we”, “our”, or “us”) provides a free iOS application that helps licensed early intervention professionals document therapy sessions. 
+                    This Privacy Policy explains how information is handled when you use the app.
                 </p>
                 <p class="mt-3 text-zinc-600 leading-relaxed">
-                    The app is designed exclusively for licensed early intervention professionals (such as Physical Therapists) to document therapy sessions for children participating in Pennsylvania’s Early Intervention program.
+                    <strong>Important:</strong> Early Intervention Notes is a client-side tool. All data you enter is stored exclusively in <strong>your personal iCloud account and on your device</strong>. 
+                    As the developer, I do not have access to, collect, store, or view any of the information you enter into the app.
                 </p>
             </section>
 
             <!-- Information We Collect -->
             <section id="collection" class="policy-section mb-12">
-                <h2 class="text-2xl font-semibold tracking-tight mb-4">2. Information We Collect</h2>
+                <h2 class="text-2xl font-semibold tracking-tight mb-4">2. Information Stored in the App</h2>
                 
-                <h3 class="font-semibold text-lg mt-6 mb-2">Information You Provide</h3>
+                <p class="text-zinc-600 leading-relaxed mb-3">
+                    The app allows you to enter and store the following types of information locally on your device and in your private iCloud account:
+                </p>
+                
                 <ul class="list-disc pl-5 space-y-1.5 text-zinc-600">
-                    <li>Provider profile information (name, service type, Local ID, manager email)</li>
+                    <li>Provider profile details (name, service type, Local ID)</li>
                     <li>Service Coordinator names</li>
-                    <li>Parent/guardian information (name, phone, address, email)</li>
-                    <li>Child information (name, date of birth, Local ID, goals, session dates)</li>
-                    <li>Session documentation including handwritten notes, targets/outcomes, family plans, and signatures created with Apple Pencil</li>
-                </ul>
-
-                <h3 class="font-semibold text-lg mt-6 mb-2">Automatically Collected Information</h3>
-                <ul class="list-disc pl-5 space-y-1.5 text-zinc-600">
-                    <li>Device information necessary for app functionality</li>
-                    <li>iCloud/CloudKit sync data (stored privately in your personal iCloud account)</li>
-                    <li>Timestamps and session metadata</li>
+                    <li>Parent/guardian contact information</li>
+                    <li>Child information (name, date of birth, Local ID, goals)</li>
+                    <li>Session documentation, including handwritten notes created with Apple Pencil, targets, outcomes, and signatures</li>
                 </ul>
                 
                 <p class="mt-4 text-sm text-zinc-500 italic">
-                    We do not collect any information directly from children. All data is entered by licensed professionals.
+                    None of this information is sent to me or any third-party servers I control. It remains entirely under your control.
                 </p>
             </section>
 
-            <!-- How We Use It -->
-            <section id="use" class="policy-section mb-12">
-                <h2 class="text-2xl font-semibold tracking-tight mb-4">3. How We Use Your Information</h2>
-                <p class="text-zinc-600 leading-relaxed mb-3">We use the information collected to:</p>
-                <ul class="list-disc pl-5 space-y-1.5 text-zinc-600">
-                    <li>Enable you to create, edit, and manage therapy session notes</li>
-                    <li>Generate professional PDF reports for parents, service coordinators, and managers</li>
-                    <li>Support bulk monthly reporting via password-protected ZIP exports</li>
-                    <li>Provide data persistence and synchronization across your devices via iCloud</li>
-                    <li>Improve the app experience and fix technical issues</li>
-                </ul>
+            <!-- How Your Data is Handled -->
+            <section id="handling" class="policy-section mb-12">
+                <h2 class="text-2xl font-semibold tracking-tight mb-4">3. How Your Data is Handled</h2>
+                
+                <div class="bg-white border border-zinc-200 rounded-3xl p-6 mb-6">
+                    <p class="font-medium text-zinc-900">The app functions like a digital notebook or spreadsheet (similar to Excel or Apple Notes).</p>
+                    <ul class="mt-4 space-y-3 text-zinc-600">
+                        <li class="flex gap-x-3">
+                            <i class="fa-solid fa-check text-teal-600 mt-1"></i>
+                            <span>All data stays in <strong>your private iCloud account</strong> and on your device.</span>
+                        </li>
+                        <li class="flex gap-x-3">
+                            <i class="fa-solid fa-check text-teal-600 mt-1"></i>
+                            <span><strong>I (the developer) never receive, view, or have access</strong> to any data you enter.</span>
+                        </li>
+                        <li class="flex gap-x-3">
+                            <i class="fa-solid fa-check text-teal-600 mt-1"></i>
+                            <span>The app does not send your data to any servers I control.</span>
+                        </li>
+                        <li class="flex gap-x-3">
+                            <i class="fa-solid fa-check text-teal-600 mt-1"></i>
+                            <span>You control everything — including when and how you export or share information.</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <p class="text-zinc-600 leading-relaxed">
+                    The only actions the app performs with your data are the ones you initiate yourself (such as generating a PDF or creating a ZIP export).
+                </p>
             </section>
 
             <!-- Children's Privacy -->
             <section id="children" class="policy-section mb-12 bg-amber-50 border border-amber-200 rounded-3xl p-6">
                 <h2 class="text-2xl font-semibold tracking-tight mb-4 text-amber-900">4. Children's Privacy</h2>
                 <p class="text-amber-800 leading-relaxed">
-                    Our app is used by adults to document services for children ages 0–3 participating in Early Intervention programs. 
-                    We do not knowingly collect personal information directly from children. All data about children is entered and controlled by licensed professionals.
+                    The app is used by licensed professionals to document services provided to children ages 0–3. 
+                    All information about children is entered and managed solely by the professional using the app. 
+                    I do not collect or have access to any child data.
                 </p>
                 <p class="mt-3 text-amber-800 leading-relaxed">
-                    We comply with applicable children’s privacy laws, including COPPA, to the extent they apply to professional documentation tools. 
-                    Parents or guardians may request access to or deletion of their child’s information through the professional using the app.
+                    Parents or guardians who wish to access or request deletion of information about their child should contact the professional who is using the app.
                 </p>
             </section>
 
-            <!-- Sharing & Disclosure -->
+            <!-- Sharing by You -->
             <section id="sharing" class="policy-section mb-12">
-                <h2 class="text-2xl font-semibold tracking-tight mb-4">5. Sharing and Disclosure</h2>
-                <p class="text-zinc-600 leading-relaxed">We do not sell your data. Information may be shared in the following limited circumstances:</p>
+                <h2 class="text-2xl font-semibold tracking-tight mb-4">5. Sharing and Exports (Controlled by You)</h2>
+                <p class="text-zinc-600 leading-relaxed">
+                    Any sharing of information happens only when <strong>you</strong> choose to do so. The app provides tools for you to:
+                </p>
                 <ul class="list-disc pl-5 mt-3 space-y-1.5 text-zinc-600">
-                    <li>With service coordinators and program managers via PDF or ZIP exports (as directed by you)</li>
-                    <li>With parents/guardians via emailed PDF reports</li>
-                    <li>To comply with legal obligations or protect rights and safety</li>
-                    <li>With Apple’s iCloud service for private data synchronization (you control your iCloud account)</li>
+                    <li>Generate and email PDF reports to parents, service coordinators, or managers</li>
+                    <li>Create password-protected ZIP exports for monthly reporting</li>
                 </ul>
+                <p class="mt-3 text-sm text-zinc-500">
+                    These exports are initiated and controlled entirely by you, just as you would if you were using a spreadsheet.
+                </p>
             </section>
 
             <!-- Security & Retention -->
             <section id="security" class="policy-section mb-12">
                 <h2 class="text-2xl font-semibold tracking-tight mb-4">6. Data Security and Retention</h2>
                 <p class="text-zinc-600 leading-relaxed">
-                    We use industry-standard security measures including Apple’s secure iCloud infrastructure and on-device encryption. 
-                    Handwritten notes created with PencilKit are stored securely on your device and in your private iCloud.
+                    Your data is protected by Apple’s built-in device encryption and your personal iCloud security settings. 
+                    Because the data never leaves your iCloud account (unless you export it), security is managed by Apple and your own device settings.
                 </p>
                 <p class="mt-3 text-zinc-600 leading-relaxed">
-                    Data is retained as long as necessary to provide the service or as required by your professional obligations and applicable regulations. 
-                    You can delete individual sessions or entire child records at any time within the app.
+                    You are in full control of how long data is retained. You can delete individual sessions, children, or the entire dataset at any time directly in the app.
                 </p>
             </section>
 
             <!-- Your Rights -->
             <section id="rights" class="policy-section mb-12">
                 <h2 class="text-2xl font-semibold tracking-tight mb-4">7. Your Rights and Choices</h2>
-                <p class="text-zinc-600 leading-relaxed">You have the right to:</p>
+                <p class="text-zinc-600 leading-relaxed">Because all data remains under your control, you can:</p>
                 <ul class="list-disc pl-5 mt-3 space-y-1.5 text-zinc-600">
-                    <li>Access, correct, or delete data within the app</li>
-                    <li>Export your data via PDF or ZIP</li>
-                    <li>Request deletion of your account/data by contacting us</li>
-                    <li>Control iCloud sync through your device settings</li>
+                    <li>View, edit, or delete any information directly in the app at any time</li>
+                    <li>Export your data whenever you want</li>
+                    <li>Turn iCloud sync on or off through your device settings</li>
+                    <li>Delete the app and all associated data from your device and iCloud</li>
                 </ul>
             </section>
 
@@ -195,21 +195,21 @@
             <section class="policy-section mb-12">
                 <h2 class="text-2xl font-semibold tracking-tight mb-4">8. Changes to This Policy</h2>
                 <p class="text-zinc-600 leading-relaxed">
-                    We may update this Privacy Policy from time to time. We will notify you of any material changes by updating the “Last updated” date at the top of this page and, where appropriate, through the app.
+                    We may update this Privacy Policy occasionally. Any changes will be reflected by updating the date at the top of this page.
                 </p>
             </section>
 
             <!-- Contact -->
             <section id="contact" class="policy-section pt-6 border-t border-zinc-200">
-                <h2 class="text-2xl font-semibold tracking-tight mb-4">9. Contact Us</h2>
-                <p class="text-zinc-600">If you have any questions about this Privacy Policy or our data practices, please contact us:</p>
+                <h2 class="text-2xl font-semibold tracking-tight mb-4">9. Contact</h2>
+                <p class="text-zinc-600">If you have questions about this policy or how the app handles data, feel free to reach out:</p>
                 
                 <div class="mt-4 bg-white border border-zinc-200 rounded-3xl p-5 text-sm">
                     <div class="flex items-center gap-x-3">
                         <i class="fa-solid fa-envelope text-teal-700 w-5"></i>
                         <a href="mailto:your-email@example.com" class="text-teal-700 hover:underline font-medium">your-email@example.com</a>
                     </div>
-                    <p class="text-xs text-zinc-500 mt-3">Please include “Early Intervention Notes Privacy” in the subject line.</p>
+                    <p class="text-xs text-zinc-500 mt-3">Please put “Early Intervention Notes Privacy” in the subject line.</p>
                 </div>
             </section>
 
@@ -226,26 +226,15 @@
     </footer>
 
     <script>
-        // Simple smooth scroll for anchor links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 const target = document.querySelector(this.getAttribute('href'));
                 if (target) {
                     e.preventDefault();
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
                 }
             });
         });
-
-        // Tailwind script for any future dynamic needs
-        function initializeTailwind() {
-            // Currently using CDN classes directly
-        }
-        
-        window.onload = initializeTailwind;
     </script>
 </body>
 </html>
